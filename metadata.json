@@ -1,0 +1,5 @@
+{
+  "name": "NotebookShare Frontend",
+  "description": "A modern Jupyter Notebook viewer and sharing platform interface built with React, Tailwind CSS, and Prism.js for syntax highlighting.",
+  "requestFramePermissions": []
+}
