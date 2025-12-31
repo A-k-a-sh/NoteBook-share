@@ -2,14 +2,19 @@
 
 A modern, browser-based Jupyter Notebook viewer built with React, TypeScript, and Vite. View, render, and share .ipynb files with full support for markdown, code syntax highlighting, outputs, plots, and mathematical equations.
 
+Live App: https://note-book-share.vercel.app
+
 ## Features
 
+- **Shareable URLs**: Share any public GitHub notebook by appending the URL to the app
+  - Example: `https://note-book-share.vercel.app/#/https://github.com/user/repo/blob/main/notebook.ipynb`
+  - Recipients can view the notebook instantly without downloading
 - **File Upload**: Drag-and-drop or select multiple .ipynb files
 - **GitHub Integration**: Import notebooks directly from GitHub repositories
 - **Rich Rendering**: 
   - Markdown with full formatting (headings, lists, links, tables)
   - Python syntax highlighting via Prism.js
-  - LaTeX math equations via KaTeX
+  - LaTeX math equations via KaTeX (supports $$, $, and \begin{aligned})
   - Cell outputs including images, HTML, and error tracebacks
 - **Local Storage**: Notebooks stored in IndexedDB for offline access
 - **Dark Mode**: System-aware theme with manual toggle
@@ -66,7 +71,17 @@ The production build will be generated in the `dist/` directory.
 ### Preview Production Build
 
 ```bash
-npm run preview
+npm Share Notebooks via URL
+
+The easiest way to share notebooks - append any public GitHub notebook URL to the app:
+
+```
+https://note-book-share.vercel.app/#/https://github.com/user/repo/blob/main/notebook.ipynb
+```
+
+The notebook loads automatically and can be viewed by anyone with the link. No login or download required.
+
+### run preview
 ```
 
 ## Usage
