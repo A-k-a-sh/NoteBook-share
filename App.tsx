@@ -65,7 +65,7 @@ const AppContent: React.FC = () => {
             {darkMode ? <Sun className="w-5 h-5 text-yellow-400" /> : <Moon className="w-5 h-5 text-gray-600" />}
           </button>
           <a
-            href="https://github.com"
+            href="https://github.com/A-k-a-sh/NoteBook-share"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-600 dark:text-gray-400"
